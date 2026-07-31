@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  padding: 0 1rem;
+}
+
+.photo-service {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 0;
+}
+
+.photo-grid {
+  column-width: 260px;
+  column-gap: 1rem;
+  width: min(100%, 1200px);
+  margin: 0 auto;
+}
+
+.photo-grid img {
+  width: 100%;
+  display: block;
+  margin: 0 0 1rem;
+  break-inside: avoid;
+  object-fit: cover;
+}
+
+@media (max-width: 680px) {
+  .photo-grid {
+    column-width: 180px;
+    column-gap: 0.75rem;
+  }
+}

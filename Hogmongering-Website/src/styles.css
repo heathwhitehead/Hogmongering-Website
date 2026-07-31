@@ -5,6 +5,7 @@ html, body, app-root {
     width: 100%;
     min-height: 100%;
     background-color: #FFDADD;
+    justify-content: center;
 }
 
 body {
@@ -32,7 +33,9 @@ app-root {
 }
 
 header {
-    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 h1 {
@@ -64,6 +67,7 @@ span {
     margin: 0;
     justify-content: center;
     display: flex;
+    max-width: 100%;
 }
 
 h4 {
@@ -86,5 +90,5 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding-top: 60px;
+    background-color: #FFDADD; 
 }
