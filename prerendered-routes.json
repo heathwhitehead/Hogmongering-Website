@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/Hogmongering-Website": {},
+    "/Hogmongering-Website/about": {},
+    "/Hogmongering-Website/photo-service": {},
+    "/Hogmongering-Website/releases": {},
+    "/Hogmongering-Website/setlists": {}
+  }
+}
